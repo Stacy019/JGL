@@ -1,6 +1,6 @@
 # status 7/9: not really updated, just a couple notes on possible bugs and places where it should be fixed.
 screen.fgl <-
-function(Y,lambda1,lambda2,weights="equal")
+function(Y,lambda1,lambda2,weights)
 {
 	K = length(Y)
 	p = dim(Y[[1]])[2]
